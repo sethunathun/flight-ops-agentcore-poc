@@ -1,0 +1,18 @@
+#policy1
+
+forbid (
+    principal,
+    action == AgentCore::Action::"target-quick-start-e5706b___get_flight_status",
+    resource == AgentCore::Gateway::"arn:aws:bedrock-agentcore:us-east-1:637423602954:gateway/flight-ops-gateway-fh2csvcmg8"
+)
+when guardrails {
+    BedrockGuardrails::SensitiveInformation(["EMAIL", "PHONE"], [context.input.message])
+        .maxConfidenceScore().greaterThan(decimal("0.2"))
+};
+
+#policy2
+permit (
+    principal,
+    action == AgentCore::Action::"target-quick-start-e5706b___get_flight_status",
+    resource == AgentCore::Gateway::"arn:aws:bedrock-agentcore:us-east-1:637423602954:gateway/flight-ops-gateway-fh2csvcmg8"
+);
