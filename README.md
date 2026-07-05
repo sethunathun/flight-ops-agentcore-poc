@@ -2,7 +2,7 @@
 
 ## Why this repo exists
 
-I have spent thirty years designing enterprise architecture and selling it to CXOs. What I had not done, until now, was build an agentic AI system with my own hands, permission by permission, and watch it fail in the specific ways real systems fail. This repo is that build.
+I have spent thirty years designing enterprise architecture, managing enterprise databases, building mission critical SaaS/Cloud Operations, leading techno-commercial part of presales for strategic pursuits  and selling it to CXOs. What I had not done, until now, was build an agentic AI system with my own hands, permission by permission, and watch it fail in the specific ways real systems fail. This repo is that build.
 
 AWS is moving its agent story from Bedrock Agents to AgentCore, its new managed platform for agent runtimes, tool gateways, memory, and governance. I built a small flight-status agent end to end on this platform, not to ship a product, but to understand the architecture the way you only understand architecture, by breaking it and fixing it yourself.
 
