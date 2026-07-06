@@ -42,4 +42,4 @@ I am leaving that open on purpose (of course afetr spending 3 hours on it :-D ) 
 Anyone can describe an agent architecture on a slide. Fewer people have scoped four IAM roles by hand, watched a policy engine's automated reasoning catch a design mistake before it shipped, and know exactly where in a request pipeline a guardrail needs to sit to actually stop something rather than just sound like it did. That distinction, between architecture that is described and architecture that is proven, is the one I intend to bring into every pre-sales conversation from here.
 
 Are we designing the control, or just describing it?
-[Github link in the comment]
+
