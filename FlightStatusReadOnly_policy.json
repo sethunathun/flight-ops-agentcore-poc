@@ -4,7 +4,7 @@
     {
       "Effect": "Allow",
       "Action": "dynamodb:GetItem",
-      "Resource": "arn:aws:dynamodb:us-east-1:637423602954:table/FlightStatus"
+      "Resource": "arn:aws:dynamodb:us-east-1:<ACCOUNT_ID>:table/FlightStatus"
     }
   ]
 }
